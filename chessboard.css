@@ -1,0 +1,30 @@
+th{
+    font-weight: normal;
+}
+td, th{
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 1em auto;
+}
+
+tbody > tr:first-child > td{
+    border-top: medium solid black;
+}
+
+tbody > tr:last-child > td{
+    border-bottom: medium solid black;
+}
+
+tbody > tr > td:first-of-type {
+    border-left: medium solid black;
+}
+
+tbody > tr > td:last-of-type{
+    border-right: medium solid black;
+}
