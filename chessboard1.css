@@ -31,7 +31,7 @@ tbody > tr > td:last-of-type  {
 }
 
 /* páratlan sor páros cella*/
-tbody > tr:nth-child(odd) > td:nth-last-of-type(even){
+tbody > tr:nth-child(even) > td:nth-last-of-type(even){
     background-color: lightgray;
 }
 
